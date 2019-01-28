@@ -24,7 +24,7 @@ body{
     width: 100%;
     min-height: 700px;
 }
-#home-section .fas{
+#home-section .fas, #create-section .fas{
     background: #fff;
     color: #008ee9;
     padding: 5px;
@@ -32,4 +32,10 @@ body{
 }
 #home-section .card-form{
     opacity: 0.8;
+}
+#explore-section .fas, #share-section .fas{
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
 }
